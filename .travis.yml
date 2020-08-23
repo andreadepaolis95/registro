@@ -3,10 +3,17 @@ language: java
 
 jdk:
  - openjdk8
-
  
+ 
+addons:
+  sonarcloud:
+    organization: "sonarcloud"
+    token:
+      secure: "K7_hiLYPZYWrVa9rCQqNtA"
+      
 script:
   - ant build
-
+  - sonar-scanner
+ 
 
   
