@@ -1,0 +1,189 @@
+{
+  "id": "38bccb10-a2ae-4993-9846-e155c29274a3",
+  "version": "2.0",
+  "name": "registro",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "076d84f6-af6b-4938-b94c-37f06475a081",
+    "name": "New Homework",
+    "commands": [{
+      "id": "3cc9449f-4a78-4048-9238-134d2cb7bc1f",
+      "comment": "",
+      "command": "open",
+      "target": "/registro_svn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f353e64-8684-456c-a32d-9504c2ae59a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9dc3136-a8ac-4011-9d8f-7ace6aefd890",
+      "comment": "",
+      "command": "click",
+      "target": "id=lg2",
+      "targets": [
+        ["id=lg2", "id"],
+        ["css=#lg2", "css:finder"],
+        ["xpath=//button[@id='lg2']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login as professor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c99ac09-ff9a-4424-9864-ce3eac615cfb",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "545d8ce9-5d1c-4a23-90b1-3b02bb308755",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fab"
+    }, {
+      "id": "f3bf7a5d-b971-4b18-a468-e8d0482584c8",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45ab0743-c557-406f-9227-a385f7501cfe",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "e8e3c32a-66c9-4093-9514-d93bb3817fc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttonLog",
+      "targets": [
+        ["css=.buttonLog", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3be591d-d55a-4859-ae64-1f1ebc11e063",
+      "comment": "",
+      "command": "click",
+      "target": "css=#flp2 .col-12 .btnSubj",
+      "targets": [
+        ["css=#flp2 .col-12 .btnSubj", "css:finder"],
+        ["xpath=//button[@onclick='flip2()']", "xpath:attributes"],
+        ["xpath=//div[@id='flp2']/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Homework')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f074730-3954-4bf9-8545-274d5a729def",
+      "comment": "",
+      "command": "click",
+      "target": "id=hmw",
+      "targets": [
+        ["id=hmw", "id"],
+        ["css=#hmw", "css:finder"],
+        ["xpath=//textarea[@id='hmw']", "xpath:attributes"],
+        ["xpath=//form[@id='form4']/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/form/div/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90735948-7cdc-420d-994b-6813eb3e11a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=hmw",
+      "targets": [
+        ["id=hmw", "id"],
+        ["css=#hmw", "css:finder"],
+        ["xpath=//textarea[@id='hmw']", "xpath:attributes"],
+        ["xpath=//form[@id='form4']/div/textarea", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/form/div/textarea", "xpath:position"]
+      ],
+      "value": "Compito in classe di fisica"
+    }, {
+      "id": "ac097395-98b0-4d37-aabf-c0a681ce929a",
+      "comment": "",
+      "command": "click",
+      "target": "id=datepick",
+      "targets": [
+        ["id=datepick", "id"],
+        ["css=#datepick", "css:finder"],
+        ["xpath=//input[@id='datepick']", "xpath:attributes"],
+        ["xpath=//form[@id='form4']/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div[2]/div/div[2]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54f6791e-d084-4674-aa27-724f5959e315",
+      "comment": "",
+      "command": "type",
+      "target": "id=datepick",
+      "targets": [
+        ["id=datepick", "id"],
+        ["css=#datepick", "css:finder"],
+        ["xpath=//input[@id='datepick']", "xpath:attributes"],
+        ["xpath=//form[@id='form4']/input", "xpath:idRelative"],
+        ["xpath=//body/div[2]/div[2]/div/div[2]/form/input", "xpath:position"]
+      ],
+      "value": "2020-06-30"
+    }, {
+      "id": "ffbcd243-eb9d-4e41-86ce-9012e2b63c98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.side > .btnSubj",
+      "targets": [
+        ["css=.side > .btnSubj", "css:finder"],
+        ["xpath=//button[@onclick='f3()']", "xpath:attributes"],
+        ["xpath=//div[@id='flp2']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f0b6a542-a25d-44c6-ba8a-69eec2d90397",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["076d84f6-af6b-4938-b94c-37f06475a081"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

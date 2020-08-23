@@ -1,0 +1,151 @@
+{
+  "id": "f809e072-7b37-425c-8d15-8033f1861a58",
+  "version": "2.0",
+  "name": "ChangeRegister",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "01bf953e-90e8-4c96-90c1-38f2bbd46c69",
+    "name": "ChangeRegister",
+    "commands": [{
+      "id": "4fea2cd5-cb91-4f10-9722-32065f56066c",
+      "comment": "",
+      "command": "open",
+      "target": "/registro_svn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7418189d-b2e2-4b49-ab95-9b6b889cfc69",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1237x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c079dcf-9c1b-475f-9f2b-6ec1c1a9d061",
+      "comment": "",
+      "command": "click",
+      "target": "id=lg2",
+      "targets": [
+        ["id=lg2", "id"],
+        ["css=#lg2", "css:finder"],
+        ["xpath=//button[@id='lg2']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login as professor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1069f716-1791-41d0-93a8-828a54130c31",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88173cbe-1b5f-4d9e-a817-30320a285cfb",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.text:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fab"
+    }, {
+      "id": "c5e170f2-99db-4a94-8ec3-f7b153306fc0",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b1e79fe-8138-44e8-8cdd-879c714c2427",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.text:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "64d5fec1-d2fc-47b9-9233-ad8d605705b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttonLog",
+      "targets": [
+        ["css=.buttonLog", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//div[@id='sbc']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9864c538-ac07-42ba-af90-d4c3597d8917",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.none > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//ul[@id='navbar']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './ProfessorRegisterServlet')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "725fcb7d-88e7-49f3-8e3a-7cd5bff613c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttonShow",
+      "targets": [
+        ["css=.buttonShow", "css:finder"],
+        ["xpath=//button[@onclick='showdrop()']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85c2cd83-6874-40ef-8563-83c258008e5e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@onclick='this.form.submit()'])[3]",
+      "targets": [
+        ["xpath=(//button[@onclick='this.form.submit()'])[3]", "xpath:attributes"],
+        ["xpath=(//form[@id='matter']/div/button)[3]", "xpath:idRelative"],
+        ["xpath=//form[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Matematica 3B')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2560af18-df63-49c3-9cbe-430e22770640",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["01bf953e-90e8-4c96-90c1-38f2bbd46c69"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
