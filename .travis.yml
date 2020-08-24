@@ -9,7 +9,7 @@ addons:
   sonarcloud:
     organization: andreadepaolis95
     token: 
-      secure: SONAR_TOKEN
+      secure: {{SONAR_TOKEN}}
       
 script:
   - ant build
