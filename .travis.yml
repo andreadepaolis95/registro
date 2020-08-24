@@ -7,9 +7,9 @@ jdk:
  
 addons:
   sonarcloud:
-    organization: andreadepaolis95
+    organization: "andreadepaolis95"
     token: 
-      secure: {{SONAR_TOKEN}}
+      secure: "7f380050d3bcd8e0903f4260eed9a7d6c3f9325a"
       
 script:
   - ant build
