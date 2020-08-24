@@ -8,7 +8,7 @@ jdk:
 addons:
   sonarcloud:
     organization: andreadepaolis95
-    token: K7_hiLYPZYWrVa9rCQqNtA
+    token: 8fc156e7a8553c09ea2b7331bf8423a1a90f23d1
       
 script:
   - ant build
