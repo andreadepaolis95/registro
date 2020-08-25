@@ -9,7 +9,7 @@ addons:
   sonarcloud:
     organization: "andreadepaolis95"
     token: 
-      secure: "7f380050d3bcd8e0903f4260eed9a7d6c3f9325a"
+      secure: "47000b61ca0eab712ceff8e34a2d99d359a99dfc"
       
 script:
   - ant build
