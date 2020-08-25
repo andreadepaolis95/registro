@@ -2,10 +2,9 @@
 language: java
 
 jdk:
- - openjdk8
+ - openjdk11
  
- 
-addons:
+ addons:
   sonarcloud:
     organization: "andreadepaolis95"
     token: "47000b61ca0eab712ceff8e34a2d99d359a99dfc"
