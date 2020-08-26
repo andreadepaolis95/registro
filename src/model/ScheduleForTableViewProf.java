@@ -4,7 +4,6 @@ public class ScheduleForTableViewProf {
     private String matter;
     private String day;
     private String hour;
-    private String classe;
 
     public ScheduleForTableViewProf(String matter , String classe , int day , int hour){
         this.matter = matter + " " + classe;

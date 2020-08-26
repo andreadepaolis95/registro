@@ -10,7 +10,7 @@ public interface Dao<T> {
 
     List<T> getAll(String[] params) throws SQLException, ConnectionError;
 
-    int save(T t) throws SQLException, ConnectionError;;
+    int save(T t) throws SQLException, ConnectionError;
 
     void update(T t, String[] params)  throws SQLException, ConnectionError;
 

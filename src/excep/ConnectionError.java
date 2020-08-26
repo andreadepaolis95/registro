@@ -4,7 +4,7 @@ package excep;
 
     public class ConnectionError extends Exception {
 
-        private final int status = 500;
+        private static final int status = 500;
 
 
 

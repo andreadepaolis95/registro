@@ -94,7 +94,7 @@ public class ProfessorDao implements UserDao{
             while (rs.next())
                 result.add(new Schedule(rs.getInt("day"), rs.getInt("hour"), rs.getString("matter"), rs.getString("course")));
 
-            if (!(result.size() > 0)) throw new SQLException("Database inconsistente");
+            if (result.size() > 0) throw new SQLException("Database inconsistente");
 
 
         } finally {

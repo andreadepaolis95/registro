@@ -33,7 +33,7 @@ public class AbsenceDao implements Dao<Absence> {
             rs = StudentRegisterQuery.getAllAbsence(st,id);
 
             while (rs.next())
-                result.add(new Absence(rs.getString("id"),rs.getString("value"),rs.getString("studentid"),rs.getDate("day"),rs.getInt("justified")==0?false:true));
+                result.add(new Absence(rs.getString("id"),rs.getString("value"),rs.getString("studentid"),rs.getDate("day"),rs.getInt("justified") == 0 ? false : true));
 
 
         }catch (SQLException | ConnectionError se){

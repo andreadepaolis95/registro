@@ -73,7 +73,6 @@ public class HomeworkDao  implements Dao<Homework>{
         if (affectedRows == 0) {
             throw new SQLException("Insert fail, no rows affected.");
         }
-        //need to take index for delete or update after created without re-load all data;
        ResultSet generatedKeys = ps.getGeneratedKeys();
             if (generatedKeys.next()) {
                 result = ( (int) generatedKeys.getLong(1));

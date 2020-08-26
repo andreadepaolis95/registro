@@ -1,12 +1,15 @@
 package persistence;
 
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Date;
 
 public  abstract  class AssignementQuery {
 
+
+    private AssignementQuery(){
+         //private
+    }
 
     public static int save(Statement st, String title, String text, String matter, String course, Date date) throws SQLException {
 

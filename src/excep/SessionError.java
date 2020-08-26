@@ -2,8 +2,8 @@ package excep;
 
 public class SessionError extends Exception{
 
-     private String message = "Something gone wrong, Try to login again :)";
-     private String link = "index.jsp";
+     private final String message = "Something gone wrong, Try to login again :)";
+     private final String link = "index.jsp";
 
      public SessionError(){
          super();

@@ -8,8 +8,8 @@ import java.sql.DriverManager;
 
 public class DataBase {
 
-    private final String  USER = "root";
-    private final String PASS = "password";
+    private static final String  USER = "root";
+    private static final String PASS = "password";
     private final String DB_URL = "jdbc:mysql://localhost:3306/registro4";
     private final String DRIVER_CLASS_NAME = "com.mysql.cj.jdbc.Driver";
     private Connection conn;
