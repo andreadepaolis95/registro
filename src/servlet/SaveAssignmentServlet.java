@@ -1,15 +1,11 @@
 package servlet;
 
-import bean.ArgumentBean;
 import bean.HomeBean;
 import bean.ProfessorBean;
 import controller.AssignmentController;
 import excep.InputException;
 import model.Argument;
-import model.Assignment;
 import model.Homework;
-import service.AssignmentService;
-import service.Validator;
 import toast.Toast;
 import toast.ToastFactory;
 import excep.SessionError;

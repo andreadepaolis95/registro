@@ -7,8 +7,6 @@ import excep.ConnectionError;
 import excep.InputException;
 import excep.SessionError;
 import model.Absence;
-
-import model.User;
 import toast.Toast;
 import toast.ToastFactory;
 

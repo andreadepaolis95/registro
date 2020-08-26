@@ -42,7 +42,7 @@ public class AssignmentServlet extends HttpServlet {
 
                 Validator v = new Validator();
                 if (!v.validateNumber(index)) throw new Exception("invalid index");
-                Predicate<Assignment> byIndex = assignment -> assignment.getId().equals(index);;
+                Predicate<Assignment> byIndex = assignment -> assignment.getId().equals(index);
                 if(cmd.equals("del_arg")) {
 
 

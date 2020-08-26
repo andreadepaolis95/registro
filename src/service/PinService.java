@@ -40,14 +40,6 @@ public class PinService {
     }
 
 
-/*
-    public String loadEmail(String id) throws Exception {
-
-        PinDao dao = new PinDao();
-        return dao.retrivesEmail(id);
-    }
-*/
-
     public boolean verifyPin(String pin ,String id) throws SQLException, ConnectionError {
         PinDao dao = new PinDao();
         String oldPin = dao.getPin(id);

@@ -10,7 +10,9 @@ public class ArgumentService {
 
 
 
-    public ArgumentService(){};
+    public ArgumentService(){
+        //serivce
+    }
 
     public List<Argument> filterForMatterAndCourse(String course, String matter) throws Exception {
 

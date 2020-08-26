@@ -35,9 +35,6 @@ public class ProfessorRegisterServlet extends HttpServlet {
             String cmd = request.getParameter("cmd");
             if (cmd == null) throw new Exception("invalid request");
 
-          /*  if(cmd.equals("extract")){
-                //estrarre studente
-            }*/
             else if (cmd.equals("next"))
                 register.setMonth(controller.changeMonth(register.getMonth(), +1));
             else if (cmd.equals("back"))

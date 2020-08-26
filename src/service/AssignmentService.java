@@ -8,7 +8,5 @@ public interface AssignmentService {
 
     public void delete(int index) throws Exception;
 
-    // public void delete(Assignment a);
 
-    //  public void update(Assignment a);
 }

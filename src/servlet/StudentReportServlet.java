@@ -5,7 +5,6 @@ import bean.StudentBean;
 import bean.UserBean;
 import controller.StudentReportController;
 import excep.SessionError;
-import model.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

@@ -9,7 +9,10 @@ import java.util.Date;
 
 public class Validator {
 
-    public Validator(){};
+    public Validator(){
+        //validator
+    }
+
 
     public  boolean validateString(String s){
         if(s == null) return false;
@@ -33,7 +36,7 @@ public class Validator {
             return false;
         }
         try {
-           int i = Integer.parseInt(numb);
+           Integer.parseInt(numb);
            return true;
 
         } catch (NumberFormatException e) {

@@ -3,11 +3,12 @@ package utilities;
 public class MonthFactory {
 
 
-     public MonthFactory(){};
+     public MonthFactory(){
+         //factory
+     }
 
      public Month createMonth(int index,int y){
 
-         System.out.println(index);
          int i = index;
          int year = y;
 
