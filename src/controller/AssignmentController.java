@@ -2,7 +2,6 @@ package controller;
 
 import excep.InputException;
 import model.Argument;
-import model.Assignment;
 import model.Homework;
 import service.*;
 
@@ -11,7 +10,9 @@ import java.util.Date;
 
 public class AssignmentController {
 
-    public AssignmentController(){};
+    public AssignmentController(){
+        //controller
+    }
 
 
     public Argument saveNewArgument(String title, String text, String matter, String course,String date) throws Exception {

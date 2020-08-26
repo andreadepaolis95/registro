@@ -25,14 +25,16 @@ class LoginControllerTest {
 
 
             UserBean u = controller.handleLogin(username, password, flag);
-            if( u == null) fail();
+            if( u == null) {
+                return fail();
+            } else {
 
-            assertFalse(u.isProfessor());
-            assertTrue(u.getFullName().length() > 0);
-            assertTrue(u.getPageList().size() > 0);
-            assertFalse(u.getCourse().isEmpty());
+                assertFalse(u.isProfessor());
+                assertTrue(u.getFullName().length() > 0);
+                assertTrue(u.getPageList().size() > 0);
+                assertFalse(u.getCourse().isEmpty());
 
-
+            }
         } catch (Exception se){
             se.printStackTrace();
             fail();

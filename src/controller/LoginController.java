@@ -12,7 +12,9 @@ import service.Validator;
 public class LoginController {
 
 
-    public LoginController(){};
+    public LoginController(){
+        //controller
+    }
 
 
     public UserBean handleLogin(String username,String password,boolean isProfessor) throws Exception {

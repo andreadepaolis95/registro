@@ -13,7 +13,9 @@ public class ReportBean {
 
 
 
-    public ReportBean() { }
+    public ReportBean() {
+        //bean
+    }
 
     public List<RegisterRecord> getAllGrades() {
         return allGrades;

@@ -11,7 +11,9 @@ import java.util.List;
 public class StudentReportController {
 
 
-    public StudentReportController(){};
+    public StudentReportController(){
+        //controller
+    }
 
     public ReportBean loadFullReport(String id, List<String> matters) throws Exception {
 

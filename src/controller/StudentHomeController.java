@@ -34,9 +34,7 @@ public class StudentHomeController {
     public List<Homework> scrollHomework(String course, Date start , Date end) throws Exception {
 
         HomeworkService service = new HomeworkService();
-        System.out.println(start);
-        System.out.println(end);
-        System.out.println("_______");
+
         if( start.before(end) )
                  return service.filterHomework(course,start,end);
         else

@@ -11,7 +11,7 @@ public class HomeBean {
 
     public HomeBean() {
         //bean
-    };
+    }
 
     private List<Schedule> schedule;
     private List<Argument> argument;

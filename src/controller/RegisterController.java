@@ -13,7 +13,9 @@ import java.util.List;
 
 public class RegisterController {
 
-    public RegisterController() {}
+    public RegisterController() {
+        //controller
+    }
 
     public RegisterBean initialize(String course, String matter) throws Exception {
 

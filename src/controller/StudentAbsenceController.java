@@ -22,8 +22,6 @@ public class StudentAbsenceController {
         //controller
     }
 
-    ;
-
 
     public void generateNewPin(String email, String id) throws InputException, SQLException, ConnectionError, MessagingException {
 
@@ -60,7 +58,7 @@ public class StudentAbsenceController {
         AbsenceService service = new AbsenceService();
         List<RegisterRecord> absences = service.getAllAbsence(id);
         absences.forEach(item -> {
-            Absence ab = (Absence) item;
+            Absence ab = item;
             if (ab.isJustified())
                 list.addJustified(ab);
             else

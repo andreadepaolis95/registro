@@ -11,7 +11,9 @@ public class UserBean {
     private List<Page> pageList;
 
 
-    public UserBean(){};
+    public UserBean(){
+        //bean
+    }
 
 
     public String getFullName() {

@@ -3,9 +3,7 @@ package controller;
 import bean.HomeBean;
 import bean.ProfessorBean;
 import dao.ProfessorDao;
-import model.Argument;
 import service.AbsenceService;
-import service.ArgumentService;
 import service.HomeworkService;
 import service.ProfessorService;
 
